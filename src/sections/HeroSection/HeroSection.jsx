@@ -8,7 +8,7 @@ function HeroSection() {
       <div className="text-xl-start text-center">
         <Image
           className="shadow" 
-          src="/src/img/asmaydn.jpg" 
+          src="/public/img/asmaydn.jpg" 
           width={150} 
           height={150} 
           roundedCircle 
