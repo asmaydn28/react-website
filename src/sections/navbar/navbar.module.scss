@@ -1,0 +1,46 @@
+.Navbar{
+    border: 1px solid #a0a0a04d;
+    padding: 0px;
+}
+
+.Brand{
+    border-right: none;
+    @media (min-width: 992px) { border-right: 1px solid #a0a0a04d; }
+    font-family: 'Times New Roman', Times, serif;
+
+    &:hover{
+        color: #2e59ba!important;
+    }
+
+    &:active{
+        color: #85abff !important;
+    }
+}
+
+
+.Link{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-right: 1px solid #a0a0a04d;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+
+
+    &:hover{
+        color: #2e59ba !important;
+    }
+
+    &:active{
+        font-weight: normal !important; 
+        color: #85abff !important; 
+    }
+
+    &:focus {
+        font-weight: normal !important;
+        box-shadow: none !important;
+    }
+}
+
+
+
+
