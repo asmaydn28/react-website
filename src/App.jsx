@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <NavbarStart />
-      <section className="bg-body-tertiary">
+      <section className="bg-body-tertiary mt-5">
         <Container>
           <Row>
             <HeroSection />

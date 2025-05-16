@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function NavbarStart() {
     return(
-        <Navbar expand="lg" className={styles.Navbar}>
+        <Navbar expand="lg" className={`${styles.Navbar} fixed-top`}>
             <Container fluid className='p-0 mx-2'>
                 <Navbar.Brand className={`${styles.Brand} px-4 py-2`} as={Link} to="/">ASIM AYDIN</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
