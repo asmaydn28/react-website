@@ -1,7 +1,7 @@
 import { Col } from "react-bootstrap";
 import styles from "./Contact.module.scss"
 import { CiMail } from "react-icons/ci";
-import { FaGithub, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 function Contact() {
   return (
@@ -24,12 +24,6 @@ function Contact() {
           <div className="mx-5 mb-5">
                     <a href="https://github.com/asmaydn28" className="me-4 text-dark">
                       <FaGithub size={20} />
-                    </a>
-                    <a href="#" className="me-4 text-dark">
-                      <FaFacebook size={20} />
-                    </a>
-                    <a href="#" className="me-4 text-dark">
-                      <FaInstagram size={20} />
                     </a>
                     <a href="#" className="me-4 text-dark">
                       <FaLinkedin size={20} />
