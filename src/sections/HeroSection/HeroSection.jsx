@@ -2,6 +2,8 @@ import { Col, Image } from "react-bootstrap";
 import { CiMail } from "react-icons/ci";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import styles from "./HeroSection.module.scss";
+import CustomButton from "../../Components/CustomButton";
+
 
 function HeroSection() {
   return (
@@ -57,7 +59,8 @@ function HeroSection() {
           </a>{" "}
           üzerinden bana ulaşabilirsiniz!
         </p>
-        <button className="btn btn-outline-secondary">ABOUT ME</button>
+        
+        <CustomButton/>
 
         <hr />
 

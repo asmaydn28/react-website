@@ -1,7 +1,6 @@
-
-
 import { Col } from "react-bootstrap";
 import { useEffect, useState } from "react";
+import styles from "./Resume.module.scss";
 
 function Resume() {
 
@@ -30,7 +29,7 @@ function Resume() {
       <Col xs={{span:12, order:1}} xl={{span:8, order:2}} className="my-5">
         <div className="p-4 bg-white rounded shadow-sm border rounded-0">
           <div className="p-4">
-            <h1 className="text-2xl font-bold mb-4">My Resume</h1>
+            <h1 className={`text-2xl font-bold mb-4 ${styles.h1Resume}`}>BENİM ÖZGEÇMİŞİM</h1>
             
             {!pdfExists ? (
               <div className="text-red-500 p-4 border rounded">

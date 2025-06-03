@@ -28,7 +28,7 @@ function Contact() {
                     <a href="#" className="me-4 text-dark">
                       <FaLinkedin size={20} />
                     </a>
-                    <a href="mailto:asmaydn2828@gmail.com" className="text-dark">
+                    <a href="mailto:asimaydin.dev@gmail.com" className="text-dark">
                       <CiMail size={20} />
                     </a>
           </div>
