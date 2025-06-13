@@ -4,6 +4,14 @@ function CardsProject() {
   return (
     <>
       <ProjectCard
+        title={"DND-Todo"}
+        text={"React ile oluşturulmuş sürükle bırak yapılacaklar listesi uygulaması."}
+        img={"/img/17.png"}
+        github={"https://github.com/asmaydn28/DnD-Todo"}
+        netlify={"https://asimaydin17.netlify.app/"}
+      />
+
+      <ProjectCard
         title={"Shopping List"}
         text={"React ile oluşturulmuş Alışveriş listesi uygulaması."}
         img={"/img/16.png"}
