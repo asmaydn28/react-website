@@ -6,7 +6,7 @@ import styles from "./AboutMe.module.scss"
 function AboutMe() {
   return (
     <>
-      <Col xs={{span:12, order:1}} xl={{span:8, order:2}} className="mt-5">
+      <Col xs={{span:12, order:1}} xl={{span:8, order:2}} className="my-5">
         <div className="bg-white rounded shadow-sm border rounded-0">
 
           <div className='p-4'>
