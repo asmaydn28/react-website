@@ -4,6 +4,14 @@ function CardsProject() {
   return (
     <>
       <ProjectCard
+        title={"JSON Placeholder"}
+        text={"React ile oluşturulmuş JSON Placeholder APİ uygulaması."}
+        img={"/img/18.png"}
+        github={"https://github.com/asmaydn28/json-placeholder-react-app"}
+        netlify={"https://asimaydin18.netlify.app/"}
+      />
+
+      <ProjectCard
         title={"DND-Todo"}
         text={"React ile oluşturulmuş sürükle bırak yapılacaklar listesi uygulaması."}
         img={"/img/17.png"}
