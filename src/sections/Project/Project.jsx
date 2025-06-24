@@ -16,7 +16,7 @@ function Project() {
           <div className="px-5 py-4">
             <h2>
               <a href="#" className={`${styles.h2about} text-decoration-none`}>
-                PROJECT
+                PROJELERİM
               </a>
             </h2>
           </div>

@@ -54,7 +54,7 @@ function NavbarStart() {
                                 className={`${styles.Link} ${styles.offcanvasLink} mb-lg-0 mb-2`}
                                 onClick={handleCloseOffcanvas}
                             >
-                                ABOUT
+                                HAKKIMDA
                             </Nav.Link>
                             <Nav.Link
                                 as={Link}
@@ -62,7 +62,7 @@ function NavbarStart() {
                                 className={`${styles.Link} ${styles.offcanvasLink} mb-lg-0 mb-2`}
                                 onClick={handleCloseOffcanvas}
                             >
-                                RESUME
+                                ÖZGEÇMİŞ
                             </Nav.Link>
                             <Nav.Link
                                 as={Link}
@@ -70,7 +70,7 @@ function NavbarStart() {
                                 className={`${styles.Link} ${styles.offcanvasLink} mb-lg-0 mb-2`}
                                 onClick={handleCloseOffcanvas}
                             >
-                                PROJECT
+                                PROJELERİM
                             </Nav.Link>
                             <Nav.Link
                                 as={Link}
@@ -78,7 +78,7 @@ function NavbarStart() {
                                 className={`${styles.Link} ${styles.offcanvasLink} border-0 mb-lg-0 mb-2`}
                                 onClick={handleCloseOffcanvas}
                             >
-                                CONTACT
+                                İLETİŞİM
                             </Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
