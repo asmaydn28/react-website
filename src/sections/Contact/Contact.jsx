@@ -39,7 +39,7 @@ function Contact() {
             <a href="https://www.linkedin.com/in/as%C4%B1mayd%C4%B1n/" target="_blank" className="me-4 text-dark">
               <FaLinkedin size={20} />
             </a>
-            <a href="mailto:asimaydin.dev@gmail.com" className="text-dark">
+            <a href="mailto:asmaydn2828@gmail.com" className="text-dark">
               <CiMail size={20} />
             </a>
           </div>
