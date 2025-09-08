@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
 import styles from "./Project.module.scss"
-import CardsProject from "./CardsProject";
+import CardsProject from "./Card";
 
 
 
